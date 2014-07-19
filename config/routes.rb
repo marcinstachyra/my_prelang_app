@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :providers
+
   resources :invoices
 
   devise_for :admin_users, ActiveAdmin::Devise.config
