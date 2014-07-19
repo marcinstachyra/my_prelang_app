@@ -1,4 +1,5 @@
 ActiveAdmin.register Provider do
+  permit_params :name, :address, :nip
 
   
   # See permitted parameters documentation:
