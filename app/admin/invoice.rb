@@ -1,4 +1,5 @@
 ActiveAdmin.register Invoice do
+  permit_params :number, :issue_date, :due_date
 
   
   # See permitted parameters documentation:
